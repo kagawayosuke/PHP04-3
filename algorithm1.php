@@ -34,13 +34,13 @@
 
 for($i = 1; $i <= 100; $i++) {
  if ($i % 3 == 0 && $i % 5 == 0) { # $iが3の倍数かつ5の倍数
- echo $i."Fizz,Buzz<br>";
+ echo $i."Fizz,Buzz\n";
  } elseif ($i % 3 == 0) { # $iが3の倍数(かつ、5の倍数でない)
- echo $i."Fizz<br>";
+ echo $i."Fizz\n";
  } elseif ($i % 5 == 0) { # $iが5の倍数(かつ、3の倍数でない)
- echo $i."Buzz<br>";
+ echo $i."Buzz\n";
  } else { # $iが3の倍数でも5の倍数でもない
- echo $i . "<br>";
+ echo $i . "\n";
  }
 }
 ?>
