@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../01_php_base"
+		},
+		{
+			"path": "../02_php_loop"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}

@@ -210,6 +210,7 @@ function judge($cards)
 ?>
  
         <?php echo "手札は";?>
-        <?php foreach ($cards as $card) : ?><?= $card['suit'] . $card['number'] . '&nbsp;' ?>
+        <?php foreach ($cards as $card) : ?><?= $card['suit'] . $card['number'] . '&nbsp;' 
+        ?>
         <?php endforeach; ?>
         役は<?= judge($cards) ?>です。
