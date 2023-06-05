@@ -214,4 +214,7 @@ function judge($cards)
         foreach ($cards as $card) : ?><?= $card['suit'] . $card['number'] 
         ?>
         <?php endforeach; ?>
+        <?php 
+        echo "\n";
+        ?>
         役は<?= judge($cards) ?>です。
