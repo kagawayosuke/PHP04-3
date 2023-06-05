@@ -33,7 +33,8 @@ function calc($yen, $product) {
             $maisu = floor($change / $j);
             $change -= ($j * $maisu);
             $t = ($j > 500) ? '札' : '玉';
-            echo $j . '円' . $t . '-' . $maisu . '枚、';
+            echo $j . '円' . $t . '×' . $maisu . '枚、';
         }
 }
 ?>
+<?php echo calc($yen,$product); ?>
