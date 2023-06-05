@@ -109,7 +109,7 @@ function judge($cards)
  
 ?>
  
-        手札は
+         <?php echo "手札は";?>
         <?php foreach ($cards as $card) : ?><?= $card['suit'] . $card['number'] ?>
         <?php endforeach; ?>
         <?php 
